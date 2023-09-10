@@ -1,0 +1,78 @@
+
+
+
+body {
+
+    font-family: Arial, sans-serif;
+
+    margin: 0;
+
+    padding: 0;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    height: 100vh;
+
+    background-color: #f0f0f0;
+
+}
+
+ 
+
+.country-container {
+
+    background-color: #fff;
+
+    padding: 20px;
+
+    border-radius: 8px;
+
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+.search-wrapper{
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    gap: 1.25em;
+}
+
+.search-wrapper button{
+    font-size: 1em;
+    background-color: rgb(22, 230, 50);
+    color: antiquewhite;
+    padding: 0.8em 0;
+    border: none;
+    border-radius: 2em;
+}
+
+.search-wrapper input{
+    font-size: 1em;
+    padding: 1em;
+    border: none;
+    border-bottom: 2px solid rgb(25, 0, 255);
+    outline: none;
+    color: rgb(4, 0, 1);
+}
+
+
+
+
+
+
+.countries {
+
+    margin-top: 20px;
+
+}
+
+.country-container .flag-img{
+    display: block;
+    width: 45%;
+    min-width: 7.5em;
+    margin: 1.8em auto 1.2em auto;
+}
